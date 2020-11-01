@@ -1,3 +1,8 @@
+package controller;
+
+import model.Customer;
+import model.DBUtils;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -8,7 +13,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet(name = "Edit",urlPatterns = "/edit")
+@WebServlet(name = "controller.Edit",urlPatterns = "/edit")
 public class Edit extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int ID = Integer.parseInt(request.getParameter("id"));

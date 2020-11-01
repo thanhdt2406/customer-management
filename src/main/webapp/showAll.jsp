@@ -9,11 +9,11 @@
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>Display Customer</title>
+    <title>controller.Display model.Customer</title>
 </head>
 <body>
     <div style="width: 800px;margin: 0 auto">
-        <a href="add.jsp">Add new customer</a>
+        <a href="add.jsp">controller.Add new customer</a>
         <table cellpadding="10">
             <tr>
                 <th>ID</th>
@@ -30,8 +30,8 @@
                 <td>${customer.phoneNumber}</td>
                 <td>${customer.address}</td>
                 <td>
-                    <a href="edit?id=${customer.ID}">Edit</a>
-                    <a href="delete?id=${customer.ID}">Delete</a>
+                    <a href="edit?id=${customer.ID}">controller.Edit</a>
+                    <a href="delete?id=${customer.ID}">controller.Delete</a>
                 </td>
             </tr>
             </c:forEach>
