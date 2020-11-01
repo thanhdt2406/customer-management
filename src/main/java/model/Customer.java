@@ -1,5 +1,7 @@
 package model;
 
+import service.DBUtils;
+
 public class Customer {
     private int ID;
     private String firstName;

@@ -9,7 +9,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>controller.Edit model.Customer</title>
+    <title>Edit Customer</title>
 </head>
 <body>
 <h1>controller.Edit student</h1>

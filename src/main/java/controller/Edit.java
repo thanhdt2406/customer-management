@@ -1,7 +1,7 @@
 package controller;
 
 import model.Customer;
-import model.DBUtils;
+import service.DBUtils;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

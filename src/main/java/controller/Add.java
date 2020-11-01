@@ -1,5 +1,8 @@
 package controller;
 
+import model.Customer;
+import service.DBUtils;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
